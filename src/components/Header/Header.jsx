@@ -2,11 +2,16 @@ import React from "react";
 import styles from "./Header.module.scss";
 import { FaSearch, FaUser, FaShoppingCart } from "react-icons/fa";
 
+// импорт логотипа
+import logoImg from "../../assets/logo.png";
+
 const Header = () => {
   return (
     <header className={styles.header}>
       {/* Логотип */}
-      <div className={styles.logo}>StreetStyle</div>
+      <div className={styles.logo}>
+        <img src={logoImg} alt="StreetStyle" />
+      </div>
 
       {/* Навигация */}
       <nav className={styles.nav}>

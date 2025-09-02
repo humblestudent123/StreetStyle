@@ -3,7 +3,7 @@
   justify-content: space-between;
   align-items: center;
   background: #fff; // белый фон
-  padding: 15px 40px;
+  padding: 10px 40px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1); // легкая тень
 }
 
@@ -11,6 +11,11 @@
   font-size: 24px;
   font-weight: bold;
   color: #000;
+}
+
+.logo img {
+  width: 150px;   /* ширина логотипа */
+  height: auto;   /* пропорционально уменьшает высоту */
 }
 
 .nav {

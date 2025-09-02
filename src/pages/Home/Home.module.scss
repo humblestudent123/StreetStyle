@@ -1,0 +1,20 @@
+.grid {
+    display: flex;
+    justify-content: center; // по горизонтали
+    align-items: center;     // по вертикали
+    min-height: 100vh;       // чтобы заняло всю высоту окна
+  
+  
+  
+  grid-template-columns: repeat(2, 1fr); // сетка (например, 2 колонки)
+  gap: 20px;
+}
+
+.card {
+  width: 90%;
+  height: 600px; // регулируй под нужный размер
+  background-size: cover;      // растягивает картинку на весь блок
+  background-position: center; // центрирует картинку
+  background-repeat: no-repeat;
+  border-radius: 0px;
+}
